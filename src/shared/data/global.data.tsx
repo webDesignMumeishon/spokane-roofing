@@ -36,8 +36,6 @@ export const jsonLd = {
         "@type": "DayOfWeek",
         "name": "Monday - Friday:"
       },
-      "opens": "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
-      "closes": "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
     },
     {
       "@type": "OpeningHoursSpecification",
