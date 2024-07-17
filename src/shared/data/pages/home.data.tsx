@@ -46,15 +46,7 @@ export const heroHome: HeroProps = {
   ),
   subtitle: (
     <>
-      {/* <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization. */}
-      One of the best Roofing Companies in Spokane. We'll help you figure out which type of roof works best for your residential and commercial property.
+      One of the best Roofing Companies in Spokane. We will help you figure out which type of roof works best for your residential and commercial property.
     </>
   ),
   callToAction: {
