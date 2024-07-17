@@ -77,30 +77,6 @@ const Form = ({
               </div>
             ))}
         </div>
-        {/* Radio buttons */}
-        {radioBtns && (
-          <div className="mx-0 mb-1 sm:mb-3">
-            <span className="pb-1 text-xs uppercase tracking-wider">{radioBtns?.label}</span>
-            <div className="flex flex-wrap">
-              {radioBtns.radios.map(({ label }, index) => (
-                <div key={`radio-btn-${index}`} className="mr-4 items-baseline">
-                  <input
-                    id={label}
-                    type="radio"
-                    name={label}
-                    value={`value${index}`}
-                    checked={radioBtnValue === `value${index}`}
-                    onChange={changeRadioBtnsHandler}
-                    className="cursor-pointer"
-                  />
-                  <label htmlFor={label} className="ml-2">
-                    {label}
-                  </label>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
         {/* Textarea */}
         {textarea && (
           <div className={`mx-0 mb-1 sm:mb-4`}>

@@ -1,6 +1,6 @@
 module.exports.SITE = {
   name: 'Spokane Roofing',
-  origin: 'https://spokane-realtors.com/',
+  origin: 'https://spokaneroofing.co/',
   basePathname: '/',
   trailingSlash: false,
   title: 'Spokane Roofing - Your Trusted Roofing Experts',

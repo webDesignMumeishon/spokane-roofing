@@ -17,7 +17,7 @@ export interface LayoutProps {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://spokane-realtors.com/'),
+  metadataBase: new URL('https://spokaneroofing.co/'),
   alternates: {
     canonical: '/',
   },
