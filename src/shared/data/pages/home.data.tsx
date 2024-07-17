@@ -41,12 +41,12 @@ import gasImg from '~/assets/images/roofing-tool.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Spokane Roofing Company
+      <span className="underline decoration-6 decoration-red-800">Spokane Roofing Company</span>
     </>
   ),
   subtitle: (
     <>
-      One of the best Roofing Companies in Spokane. We will help you figure out which type of roof works best for your residential and commercial property.
+      One of the best Roofing Companies in Spokane . We will help you figure out which type of roof works best for your residential and commercial property.
     </>
   ),
   callToAction: {
@@ -177,7 +177,11 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'All Service Spokane Roofing',
+    title: (
+      <>
+        All Service <span className="text-rose-700">Spokane Roofing</span>
+      </>
+    ),
     subtitle: 'We want to make sure your home or business is protected !',
     tagline: '',
   },
@@ -249,7 +253,11 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Ranked #1 Roofing Company in Spokane, WA',
+    title: (
+      <>
+        Ranked #1 <span className="text-rose-700">Roofing Company</span> in Spokane, WA
+      </>
+    ),
   },
   items: [
     {
