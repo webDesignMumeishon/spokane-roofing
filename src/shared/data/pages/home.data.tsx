@@ -611,12 +611,12 @@ export const contactHome: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['601 W 1st Ave Suite 1200', 'Spokane WA, EEUU'],
+      description: ['601 W 1st Ave Suite 1200', 'Spokane WA, EEUU', '99201'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (509) 294-3442', 'Email: info@spokane-realtors.com'],
+      description: ['Mobile: +1 (509) 294-3442', 'Email: spokaneroofingco@gmail.com'],
       icon: IconPhoneCall,
     },
 
