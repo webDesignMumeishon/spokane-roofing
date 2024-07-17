@@ -9,7 +9,8 @@ import {
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
 export const websiteData = {
-  phone: '(509) 294-3442'
+  phone: '(509) 294-3442',
+  address: '601 W 1st Ave Suite 1200'
 }
 
 // Announcement data

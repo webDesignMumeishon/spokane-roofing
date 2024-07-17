@@ -33,4 +33,4 @@ If you have any questions or concerns about these Terms and Conditions, please c
 Spokane Roofing  
 Phone: (509) 294-3442
 Email: info@spokane-Roofing.com
-Address: 103 E Indiana Ave # B
+Address: 601 W 1st Ave Suite 1200
