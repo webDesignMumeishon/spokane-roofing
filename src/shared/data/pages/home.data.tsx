@@ -41,7 +41,7 @@ import gasImg from '~/assets/images/roofing-tool.png';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Best Roofing Company in Spokane
+      Spokane Roofing Company
     </>
   ),
   subtitle: (
