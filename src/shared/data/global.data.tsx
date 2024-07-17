@@ -10,7 +10,44 @@ import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
 export const websiteData = {
   phone: '(509) 294-3442',
-  address: '601 W 1st Ave Suite 1200'
+  address: '601 W 1st Ave Suite 1200',
+  email: 'spokaneroofingco@gmail.com'
+}
+
+export const jsonLd = {
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Spokane Roofing Company",
+  "image": "https://spokaneroofing.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspokane-roofing.e69bb475.png&w=640&q=75",
+  "telephone": "(509) 294-3442",
+  "email": "spokaneroofingco@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "601 W 1st Ave Suite 1200",
+    "addressLocality": "Spokane",
+    "addressRegion": "WA",
+    "addressCountry": "EEUU",
+    "postalCode": "99201"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Monday - Friday:"
+      },
+      "opens": "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
+      "closes": "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Saturday & Sunday"
+      }
+    }
+  ],
+  "url": "https://spokaneroofing.co/"
 }
 
 // Announcement data

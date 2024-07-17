@@ -32,6 +32,7 @@ import { contact2Contact } from '~/shared/data/pages/contact.data';
 import Experience from '~/components/widgets/Experience';
 import { contentServicesOne, features2Services } from '~/shared/data/pages/services.data';
 import Features2 from '~/components/widgets/Features2';
+import { jsonLd } from '~/shared/data/global.data';
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -39,6 +40,11 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
+      {/* Add JSON-LD to your page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Hero {...heroHome} />
       <FormHero {...contact2Contact.form} containerClass="card mx-auto p-5 md:px-12 md:hidden" btnPosition="right" />
       {/* <SocialProof {...socialProofHome} /> */}
