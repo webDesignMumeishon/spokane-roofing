@@ -1,7 +1,7 @@
 {
-  "name": "spokane-realtors",
-  "description": "Find the best realtors in Spokane, WA",
-  "version": "1.0.0-beta.2",
+  "name": "spokane-roofing",
+  "description": "Spokane Roofing",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -35,7 +35,7 @@ import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 import realStateAgentAndFamily from '~/assets/images/real-state-spokane-people.png';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
-import gasImg from '~/assets/images/roofing-tool.png';
+import gasImg from '~/assets/images/roofing-tool.webp';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {

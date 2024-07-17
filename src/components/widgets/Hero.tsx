@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { HeroProps } from '~/shared/types';
-import heroImg from '~/assets/images/real-state-faq.png';
+import heroImg from '~/assets/images/real-state-faq.webp';
 import Contact2 from './Contact2';
 import { heroContact, contact2Contact, features2Contact } from '~/shared/data/pages/contact.data';
 import './style.css'
