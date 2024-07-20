@@ -30,7 +30,6 @@ import {
 import FormHero from '~/components/common/FormHero';
 import { contact2Contact } from '~/shared/data/pages/contact.data';
 import Experience from '~/components/widgets/Experience';
-import { contentServicesOne, features2Services } from '~/shared/data/pages/services.data';
 import Features2 from '~/components/widgets/Features2';
 import { jsonLd } from '~/shared/data/global.data';
 
@@ -51,7 +50,7 @@ export default function Page() {
       <Experience {...stepsHome} />
       <Content {...contentHomeOne} />
 
-      <Features2 {...features2Services} />
+      <Features2 {...featuresHome} />
       <Testimonials {...testimonialsHome} />
       <FAQs2 {...faqs2Home} />
       {/* <Pricing {...pricingHome} /> */}

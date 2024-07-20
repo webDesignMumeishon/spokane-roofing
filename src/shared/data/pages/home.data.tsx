@@ -1,4 +1,5 @@
 import {
+  IconArrowBadgeRight,
   IconArrowDown,
   IconArrowsRightLeft,
   IconBrandLinkedin,
@@ -9,6 +10,7 @@ import {
   IconClock,
   IconComponents,
   IconDownload,
+  IconHomeSearch,
   IconListCheck,
   IconMail,
   IconMapPin,
@@ -95,79 +97,30 @@ export const socialProofHome: SocialProofProps = {
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
-  id: 'features-on-home',
-  hasBackground: false,
-  columns: 3,
+  id: 'featuresTwo-on-services',
   header: {
-    title: (
-      <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
-      </>
-    ),
-    subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+    title: 'Services',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
+      title: 'Roof Repair',
+      description: 'We can repair any type of roofing issue, including leaks, missing shingles, and damaged flashing.',
+      icon: IconHomeSearch,
       callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        text: 'VIEW SERVICE',
+        href: 'services/roof-repair',
+        icon: IconArrowBadgeRight
+      }
     },
     {
-      title: 'Ready-to-use Components',
-      description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-      icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Best Practices',
-      description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+      title: 'Roof Replacement',
+      description: 'Replacing the entire roof or specific sections to ensure structural integrity and longevity.',
       icon: IconBulb,
       callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        text: 'VIEW SERVICE',
+        href: 'services/roof-replacement',
+        icon: IconArrowBadgeRight
+      }
     },
   ],
 };
