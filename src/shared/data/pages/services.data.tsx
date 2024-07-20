@@ -9,7 +9,8 @@ import {
   IconHomeSearch,
   IconWallet,
   IconMapSearch,
-  IconBuildingEstate
+  IconBuildingEstate,
+  IconArrowBadgeRight
 } from '@tabler/icons-react';
 
 import {
@@ -31,7 +32,7 @@ export const heroServices: HeroProps = {
   title: 'Spokane Roofing Services',
   subtitle: 'Helping You Find Your Dream Home with Ease and Confidence',
   callToAction: {
-    text: 'Start Exploring',
+    text: 'GET A FREE ESTIMATE',
     href: '/contact',
     targetBlank: false,
   },
@@ -53,7 +54,7 @@ export const servicesListServices: any = {
       description: 'At Spokane Roofing, our skilled roofers are experts in replacing roofs for both residential and commercial buildings. We use top-quality roofing materials to ensure long-lasting results and customer satisfaction.',
       callToAction: {
         text: 'READ MORE',
-        // href: '/services/emergency-roof-repair'
+        href: '/services/roof-replacement'
       }
     },
     {
@@ -65,7 +66,7 @@ export const servicesListServices: any = {
       description: 'Our professional roofers are skilled in addressing all types of roof damage. From minor leaks to extensive damage, we provide comprehensive roof repair services to maintain the integrity of your property.',
       callToAction: {
         text: 'READ MORE',
-        // href: '/services/roof-repair'
+        href: '/services/roof-repair',
       }
     }
   ]
@@ -75,53 +76,28 @@ export const servicesListServices: any = {
 export const features2Services: FeaturesProps = {
   id: 'featuresTwo-on-services',
   header: {
-    title: 'Roofing Services',
+    title: 'Services',
   },
   items: [
     {
-      title: 'Leak Repair',
-      description: 'Identifying and fixing leaks caused by various factors like damaged shingles, flashing issues, or structural problems.',
+      title: 'Roof Repair',
+      description: 'We can repair any type of roofing issue, including leaks, missing shingles, and damaged flashing.',
       icon: IconHomeSearch,
-    },
-    {
-      title: 'Patching and Replacement',
-      description: 'Replacing damaged sections of the roof covering (shingles, tiles, metal panels) to prevent further deterioration.',
-      icon: IconWallet,
-    },
-    {
-      title: 'Wind and Hail Damage Repair',
-      description: 'Assessing and repairing damage caused by severe weather events, ensuring structural integrity and waterproofing.',
-      icon: IconMapSearch,
-    },
-    {
-      title: 'Chimney and Flashing Repair',
-      description: 'Addressing leaks or deteriorated flashing around chimneys and other roof penetrations.',
-      icon: IconBuildingEstate,
-    },
-    {
-      title: 'Skylight Maintenance and Repair',
-      description: 'Fixing leaks, cracks, or issues related to skylights installed on the roof.',
-      icon: IconArrowsRightLeft,
-    },
-    {
-      title: 'Roof Maintenance',
-      description: 'Routine inspection, cleaning, and minor repairs to extend the lifespan and prevent major issues.',
-      icon: IconBulb,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'roof-repair',
+        icon: IconArrowBadgeRight
+      }
     },
     {
       title: 'Roof Replacement',
       description: 'Replacing the entire roof or specific sections to ensure structural integrity and longevity.',
       icon: IconBulb,
-    },
-    {
-      title: 'Choosing the Right Roofing Material',
-      description: 'Consulting with professionals to select the best roofing material based on durability, aesthetics, and budget.',
-      icon: IconBulb,
-    },
-    {
-      title: 'Installation of New Roofs',
-      description: 'Proper installation of new roofs to ensure they are watertight, durable, and long-lasting.',
-      icon: IconBulb,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'roof-replacement',
+        icon: IconArrowBadgeRight
+      }
     },
   ],
 };

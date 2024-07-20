@@ -6,6 +6,7 @@ import { heroContact, contact2Contact, features2Contact } from '~/shared/data/pa
 import './style.css'
 import Form from '../common/Form';
 import FormHero from '../common/FormHero';
+import CTA from './CTA';
 
 const HeroServices = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
     return (
@@ -28,9 +29,8 @@ const HeroServices = ({ title, subtitle, tagline, callToAction, callToAction2, i
                             </div>
                             <div className="mx-auto">
                                 <div className="text-white flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-col sm:justify-center">
-                                    <p className='text-xl font-semibold w-max text-primary-600'>Call us</p>
                                     <p className='text-3xl'>(509) 294-3442</p>
-                                    <p className='btn btn-primary'>GET A FREE ESTIMATE</p>
+                                    <CTA callToAction={callToAction} linkClass='btn btn-primary' />
                                 </div>
                             </div>
                         </div>
