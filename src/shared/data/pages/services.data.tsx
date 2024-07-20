@@ -23,11 +23,12 @@ import {
 
 import heroImg from '~/assets/images/spokane-hero-services.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+import roofReplacement from '~/assets/images/roof-replacement.webp';
+import roofRepair from '~/assets/images/roof-repair.webp';
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {
-  title: 'Professional Real Estate Solutions in Spokane, WA',
+  title: 'Spokane Roofing Services',
   subtitle: 'Helping You Find Your Dream Home with Ease and Confidence',
   callToAction: {
     text: 'Start Exploring',
@@ -39,6 +40,36 @@ export const heroServices: HeroProps = {
     alt: 'Hero TailNext',
   },
 };
+
+// ServicesList data on Services page *******************
+export const servicesListServices: any = {
+  items: [
+    {
+      image: {
+        src: roofReplacement,
+        alt: 'test'
+      },
+      title: 'Roof Replacement',
+      description: 'At Spokane Roofing, our skilled roofers are experts in replacing roofs for both residential and commercial buildings. We use top-quality roofing materials to ensure long-lasting results and customer satisfaction.',
+      callToAction: {
+        text: 'READ MORE',
+        // href: '/services/emergency-roof-repair'
+      }
+    },
+    {
+      image: {
+        src: roofRepair,
+        alt: 'test'
+      },
+      title: 'Roof Repair',
+      description: 'Our professional roofers are skilled in addressing all types of roof damage. From minor leaks to extensive damage, we provide comprehensive roof repair services to maintain the integrity of your property.',
+      callToAction: {
+        text: 'READ MORE',
+        // href: '/services/roof-repair'
+      }
+    }
+  ]
+}
 
 // Feature2 data on Services page *******************
 export const features2Services: FeaturesProps = {
@@ -158,7 +189,7 @@ export const contentServicesTwo: ContentProps = {
     },
   ],
   image: {
-    src: cameraBackImg,
+    src: roofReplacement,
     alt: 'Colorful Image',
   },
   isReversed: false,

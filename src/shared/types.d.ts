@@ -264,6 +264,15 @@ type CallToActionProps = Widget & {
   items?: Array<Item>;
 };
 
+type ServicesListProps = Widget & {
+  items: Array<{
+    title?: string | boolean | number;
+    description?: string | Array<string>;
+    image: Image
+    callToAction?: CallToActionType;
+  }>
+}
+
 type FeaturesProps = Widget & {
   header?: Header;
   items?: Array<Item>;

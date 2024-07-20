@@ -69,6 +69,10 @@ export const headerData: HeaderProps = {
       href: '/',
     },
     {
+      label: 'Services',
+      href: '/services',
+    },
+    {
       label: 'Pages',
       icon: IconChevronDown,
       links: [

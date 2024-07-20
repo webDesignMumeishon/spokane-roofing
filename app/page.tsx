@@ -47,7 +47,6 @@ export default function Page() {
       />
       <Hero {...heroHome} />
       <FormHero {...contact2Contact.form} containerClass="card mx-auto p-5 md:px-12 md:hidden" btnPosition="right" />
-      {/* <SocialProof {...socialProofHome} /> */}
       {/* <Content {...contentHomeTwo} /> */}
       <Experience {...stepsHome} />
       <Content {...contentHomeOne} />
