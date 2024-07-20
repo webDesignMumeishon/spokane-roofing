@@ -13,9 +13,9 @@ const ServicesList = ({
         hasBackground={hasBackground}
         containerClass={`flex flex-col gap-6`}
     >
-        {items.map((service) => {
+        {items.map((service, index) => {
             return (
-                <div className='flex flex-row gap-10'>
+                <div className='flex flex-row gap-10' key={index}>
                     <Image
                         src={service.image.src}
                         alt={'logo'}
