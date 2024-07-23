@@ -15,7 +15,7 @@ const ServicesList = ({
     >
         {items.map((service, index) => {
             return (
-                <div className='flex flex-row gap-10' key={index}>
+                <div className='flex flex-col md:flex-row md:gap-10' key={index}>
                     <Image
                         src={service.image.src}
                         alt={'logo'}

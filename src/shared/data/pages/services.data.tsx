@@ -26,6 +26,8 @@ import heroImg from '~/assets/images/spokane-hero-services.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import roofReplacement from '~/assets/images/roof-replacement.webp';
 import roofRepair from '~/assets/images/roof-repair.webp';
+import metalRoofing from '~/assets/images/roofing-metal.webp';
+
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {
@@ -48,7 +50,7 @@ export const servicesListServices: any = {
     {
       image: {
         src: roofReplacement,
-        alt: 'test'
+        alt: 'Spokane roofing roof replacement service'
       },
       title: 'Roof Replacement',
       description: 'At Spokane Roofing, our skilled roofers are experts in replacing roofs for both residential and commercial buildings. We use top-quality roofing materials to ensure long-lasting results and customer satisfaction.',
@@ -60,13 +62,25 @@ export const servicesListServices: any = {
     {
       image: {
         src: roofRepair,
-        alt: 'test'
+        alt: 'Spokane roofing roof repair service'
       },
       title: 'Roof Repair',
       description: 'Our professional roofers are skilled in addressing all types of roof damage. From minor leaks to extensive damage, we provide comprehensive roof repair services to maintain the integrity of your property.',
       callToAction: {
         text: 'READ MORE',
         href: '/services/roof-repair',
+      }
+    },
+    {
+      image: {
+        src: metalRoofing,
+        alt: 'Spokane metal roofing service'
+      },
+      title: 'Metal Roofing',
+      description: 'Choose our metal roofing systems for a long-lasting, durable solution. Our roofing professionals are experts in installing and maintaining metal roofs, offering a variety of styles to match your aesthetic and functional needs.',
+      callToAction: {
+        text: 'READ MORE',
+        href: '/services/metal-roofing',
       }
     }
   ]

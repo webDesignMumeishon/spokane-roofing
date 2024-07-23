@@ -14,7 +14,7 @@ const HeroServices = ({ title, subtitle, tagline, callToAction, callToAction2, i
             <div className="mx-auto max-w-7xl px-4 sm:px-6 ">
                 <div className="py-12 md:py-10">
                     <div className="relative flex flex-col xl:flex-row  justify-center md:basis-[40%] gap-4" >
-                        <div className="mx-auto text-start md:pt-16 flex gap-10">
+                        <div className="mx-auto text-start md:pt-16 flex gap-10 md:flex-row flex-col">
                             {tagline && (
                                 <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
                                     {tagline}

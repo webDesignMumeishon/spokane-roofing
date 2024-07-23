@@ -23,11 +23,10 @@ import {
 import ServicesList from '~/components/widgets/ServicesList';
 
 export const metadata: Metadata = {
-  title: 'Services',
+  title: 'Services | Quality Roofing Services',
   alternates: {
     canonical: `${SITE.origin}services`,
   },
-  keywords: ['real state', 'services', 'Investment', 'Buying', 'Management']
 };
 
 const Page = () => {
