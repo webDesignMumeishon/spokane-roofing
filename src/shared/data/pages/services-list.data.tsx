@@ -3,6 +3,8 @@ import heroImg from '~/assets/images/spokane-hero-services.png';
 
 import roofReplacement from '~/assets/images/roof-replacement.webp';
 import roofRepair from '~/assets/images/roof-repair.webp';
+import metalRoofing from '~/assets/images/roofing-metal.webp';
+
 
 export const servicesList: any = {
     "roof-repair": {
@@ -122,7 +124,7 @@ export const servicesList: any = {
                 href: '/services',
             },
             image: {
-                src: roofReplacement,
+                src: metalRoofing,
                 alt: 'Spokane roofing hero image',
             },
         }
