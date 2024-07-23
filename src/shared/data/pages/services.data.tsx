@@ -10,7 +10,8 @@ import {
   IconWallet,
   IconMapSearch,
   IconBuildingEstate,
-  IconArrowBadgeRight
+  IconArrowBadgeRight,
+  IconHome2
 } from '@tabler/icons-react';
 
 import {
@@ -110,6 +111,16 @@ export const features2Services: FeaturesProps = {
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'roof-replacement',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Metal Roofing',
+      description: 'Transform your home with our top-tier metal roofing solutions. Engineered for durability, energy efficiency, and aesthetic appeal.',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'metal-roofing',
         icon: IconArrowBadgeRight
       }
     },

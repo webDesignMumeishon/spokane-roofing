@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: any) {
         return notFound();
     }
     return {
-        title: `${service.title}`,
+        title: `Quality ${service.title} `,
         alternates: {
             canonical: `${SITE.origin}services/${params.slug}`,
         },

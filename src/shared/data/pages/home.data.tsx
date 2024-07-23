@@ -16,6 +16,7 @@ import {
   IconMapPin,
   IconPhoneCall,
   IconRocket,
+  IconHome2
 } from '@tabler/icons-react';
 import {
   CallToActionProps,
@@ -119,6 +120,16 @@ export const featuresHome: FeaturesProps = {
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/roof-replacement',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Metal Roofing',
+      description: 'Transform your home with our top-tier metal roofing solutions. Engineered for durability, energy efficiency, and aesthetic appeal.',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'services/metal-roofing',
         icon: IconArrowBadgeRight
       }
     },
