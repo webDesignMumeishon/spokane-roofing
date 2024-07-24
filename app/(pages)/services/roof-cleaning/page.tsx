@@ -55,7 +55,7 @@ const hero2 = {
     ),
     subtitle: (
         <>
-            Keep your roof in healthy conditions with our professional roof cleaning services. We specialize in removing dirt, moss, algae, and debris to enhance your roof's appearance and extend its lifespan. We ensure a holistic treatment of your roof, which involves the use of formulated cleaning solution.
+            Keep your roof in healthy conditions with our professional roof cleaning services. We specialize in removing dirt, moss, algae, and debris to enhance your roof appearance and extend its lifespan. We ensure a holistic treatment of your roof, which involves the use of formulated cleaning solution.
         </>
     ),
     callToAction: {
