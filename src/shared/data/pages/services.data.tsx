@@ -28,6 +28,7 @@ import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import roofReplacement from '~/assets/images/roof-replacement.webp';
 import roofRepair from '~/assets/images/roof-repair.webp';
 import metalRoofing from '~/assets/images/roofing-metal.webp';
+import roofCleaning from '~/assets/images/roof-cleaning.webp';
 
 
 // Hero data on Services page *******************
@@ -83,7 +84,21 @@ export const servicesListServices: any = {
         text: 'READ MORE',
         href: '/services/metal-roofing',
       }
-    }
+    },
+    {
+      image: {
+        src: roofCleaning,
+        alt: 'Spokane roofing cleaning service'
+      },
+      title: 'Roof Cleaning',
+      description: 'Our pressure washing services can make your roof look new. Contact us today to schedule our high-pressure cleaning services for your residential or commercial roof.',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'services/roof-cleaning',
+        icon: IconArrowBadgeRight
+      }
+    },
   ]
 }
 
@@ -125,42 +140,6 @@ export const features2Services: FeaturesProps = {
       }
     },
   ],
-};
-
-// Content data on Services page *******************
-export const contentServicesOne: ContentProps = {
-  id: 'contentOne-on-services-one',
-  hasBackground: false,
-  content: 'Making it Easy: A Simple Guide to Our Process',
-  items: [
-    {
-      title: 'Step 1: Initial Consultation',
-      description: 'We begin with a no-obligation consultation to understand your needs, preferences, and budget. This is your opportunity to outline your goals and ask any questions you have about the process.',
-    },
-    {
-      title: 'Step 2: Customized Plan',
-      description:
-        'Based on our discussion, we create a personalized plan. For buyers, this includes identifying suitable properties. For sellers, we develop a marketing strategy to attract the right buyers and prepare your property for listing.',
-    },
-    {
-      title: 'Step 3: Property Tours and Marketing',
-      description: 'For buyers, we schedule and conduct tours of selected properties, providing insights and detailed information. For sellers, we handle all marketing efforts, including showings and open houses, to ensure your property stands out.',
-    },
-    {
-      title: 'Step 4: Negotiation and Offers',
-      description: 'When you’re ready to make an offer or receive offers, we guide you through the negotiation process, ensuring your interests are well-represented. We help craft competitive offers for buyers and evaluate and negotiate offers for sellers.',
-    },
-    {
-      title: 'Step 5: Closing and Beyond',
-      description: 'We assist with all the necessary paperwork and coordination with relevant parties to ensure a smooth closing. After the sale, we continue to support you with any additional needs or questions you might have.',
-    },
-  ],
-  image: {
-    src: cameraFrontImg,
-    alt: 'Colorful Image',
-  },
-  isReversed: true,
-  isAfterContent: false,
 };
 
 // Content data on Services page *******************

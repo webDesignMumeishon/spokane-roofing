@@ -43,7 +43,7 @@ export default function RootLayout({ children }: LayoutProps) {
           {/* <Announcement /> */}
           <Header />
           <main>{children}</main>
-          {/* <Footer2 /> */}
+          <Footer2 />
         </Providers>
       </body>
     </html>

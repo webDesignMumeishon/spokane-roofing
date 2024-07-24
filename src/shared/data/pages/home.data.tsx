@@ -97,7 +97,7 @@ export const socialProofHome: SocialProofProps = {
 };
 
 // Features data on Home page *******************
-export const featuresHome: FeaturesProps = {
+export const servicesHome: FeaturesProps = {
   id: 'featuresTwo-on-services',
   header: {
     title: 'Services',
@@ -130,6 +130,16 @@ export const featuresHome: FeaturesProps = {
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/metal-roofing',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Roof Cleaning',
+      description: 'Our pressure washing services can make your roof look new. Contact us today to schedule our high-pressure cleaning services for your residential or commercial roof.',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'services/roof-cleaning',
         icon: IconArrowBadgeRight
       }
     },

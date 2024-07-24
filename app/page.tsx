@@ -19,12 +19,11 @@ import {
   contentHomeOne,
   contentHomeTwo,
   faqs2Home,
-  featuresHome,
   heroHome,
   pricingHome,
   socialProofHome,
   stepsHome,
-  teamHome,
+  servicesHome,
   testimonialsHome,
 } from '~/shared/data/pages/home.data';
 import FormHero from '~/components/common/FormHero';
@@ -46,17 +45,12 @@ export default function Page() {
       />
       <Hero {...heroHome} />
       <FormHero {...contact2Contact.form} containerClass="card mx-auto p-5 md:px-12 md:hidden" btnPosition="right" />
-      {/* <Content {...contentHomeTwo} /> */}
       <Experience {...stepsHome} />
       <Content {...contentHomeOne} />
-
-      <Features2 {...featuresHome} />
+      <Features2 {...servicesHome} />
       <Testimonials {...testimonialsHome} />
       <FAQs2 {...faqs2Home} />
-      {/* <Pricing {...pricingHome} /> */}
-      {/* <Team {...teamHome} /> */}
       <Contact {...contactHome} />
-      {/* <CallToAction2 {...callToAction2Home} /> */}
     </>
   );
 }

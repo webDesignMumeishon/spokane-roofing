@@ -1,12 +1,16 @@
 import {
+  IconArrowBadgeRight,
   IconBrandFacebook,
   IconBrandGithub,
   IconBrandInstagram,
   IconBrandTwitter,
+  IconBulb,
   IconChevronDown,
+  IconHome2,
+  IconHomeSearch,
   IconRss,
 } from '@tabler/icons-react';
-import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
+import { AnnouncementProps, FeaturesProps, FooterProps, HeaderProps } from '../types';
 
 export const websiteData = {
   phone: '(509) 294-3442',
@@ -59,6 +63,66 @@ export const announcementData: AnnouncementProps = {
     text: 'Follow @onWidget on Twitter',
     href: 'https://twitter.com/intent/user?screen_name=onwidget',
   },
+};
+
+// Services data
+export const servicesData: FeaturesProps = {
+  id: 'featuresTwo-on-services',
+  header: {
+    title: 'Services',
+  },
+  items: [
+    {
+      title: 'Roof Repair',
+      description: 'We can repair any type of roofing issue, including leaks, missing shingles, and damaged flashing.',
+      icon: IconHomeSearch,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'roof-repair',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Roof Replacement',
+      description: 'Replacing the entire roof or specific sections to ensure structural integrity and longevity.',
+      icon: IconBulb,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'roof-replacement',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Metal Roofing',
+      description: 'Transform your home with our top-tier metal roofing solutions. Engineered for durability, energy efficiency, and aesthetic appeal.',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'metal-roofing',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Roof Cleaning',
+      description: 'Our pressure washing services can make your roof look new. Contact us today to schedule our high-pressure cleaning services for your residential or commercial roof.',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'roof-cleaning',
+        icon: IconArrowBadgeRight
+      }
+    },
+    // {
+    //   title: 'Commercial Roofing',
+    //   description: 'As an experienced commercial roofing company, our team will help evaluate the best commercial roofing system for your needs or even commercial roof repair needs.',
+    //   icon: IconHome2,
+    //   callToAction: {
+    //     text: 'VIEW SERVICE',
+    //     href: '/commercial-roofing',
+    //     icon: IconArrowBadgeRight
+    //   }
+    // },
+  ],
 };
 
 // Header data
@@ -266,36 +330,16 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      texts: ['601 W 1st Ave Suite 1200', 'Spokane WA, EEUU', '99201'],
     },
     {
       title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      texts: ['Mobile: +1 (509) 294-3442'],
     },
     {
       title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      texts: ['spokaneroofingco@gmail.com'],
     },
   ],
-  socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
-  ],
-  footNote: (
-    <div className="mr-4 text-sm">
-      <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
-      <a
-        className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-        href="https://onwidget.com/"
-      >
-        {' '}
-        onWidget
-      </a>{' '}
-      · All rights reserved.
-    </div>
-  ),
+  socials: [],
 };
