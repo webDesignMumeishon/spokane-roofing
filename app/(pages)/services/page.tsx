@@ -8,7 +8,7 @@ import ServicesList from '~/components/widgets/ServicesList';
 export const metadata: Metadata = {
   title: 'Services | Quality Roofing Services',
   alternates: {
-    canonical: `${SITE.origin}services`,
+    canonical: `${SITE.origin}services/roof-replacement`,
   },
 };
 

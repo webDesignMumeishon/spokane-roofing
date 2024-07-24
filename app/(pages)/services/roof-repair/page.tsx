@@ -33,7 +33,7 @@ import metalRoofing from '~/assets/images/roofing-metal.webp';
 export const metadata: Metadata = {
     title: 'Services | Quality Roofing Services',
     alternates: {
-        canonical: `${SITE.origin}services`,
+        canonical: `${SITE.origin}services/roof-repair`,
     },
 };
 
