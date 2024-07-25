@@ -7,7 +7,8 @@ import { SITE } from '~/config';
 import { heroContact, contact2Contact, features2Contact } from '~/shared/data/pages/contact.data';
 
 export const metadata: Metadata = {
-  title: 'Contact us',
+  title: 'Contact us | Thanks for Reaching Out !',
+  description: 'Your inquiry is our top priority | Contact Us Today to Learn More | Phone: (509) 294-3442',
   alternates: {
     canonical: `${SITE.origin}contact`,
   },

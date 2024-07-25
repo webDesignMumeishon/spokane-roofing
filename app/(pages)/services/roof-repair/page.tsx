@@ -2,36 +2,17 @@ import { Metadata } from 'next';
 
 import HeroServices from '~/components/common/HeroServices';
 import CallToAction from '~/components/widgets/CallToAction';
-import Content from '~/components/widgets/Content';
-import FAQs from '~/components/widgets/FAQs';
-import Features2 from '~/components/widgets/Features2';
-import Features3 from '~/components/widgets/Features3';
 import Features4 from '~/components/widgets/Features4';
-import Hero from '~/components/widgets/Hero';
-import Testimonials from '~/components/widgets/Testimonials';
 import { SITE } from '~/config';
-import {
-    callToActionServices,
-    contentServicesTwo,
-    faqsServices,
-    features2Services,
-    features4Services,
-    heroServices,
-    testimonialsServices,
-    servicesListServices
-} from '~/shared/data/pages/services.data';
-import ServicesList from '~/components/widgets/ServicesList';
+import { callToActionServices } from '~/shared/data/pages/services.data';
 import { servicesData } from '~/shared/data/global.data';
 import heroImg from '~/assets/images/spokane-hero-services.png';
 import Hero2 from '~/components/widgets/Hero2';
-import roofCleaning from '~/assets/images/roof-cleaning.webp';
-import { ContentProps } from '~/shared/types';
-import roofReplacement from '~/assets/images/roof-replacement.webp';
 import roofRepair from '~/assets/images/roof-repair.webp';
-import metalRoofing from '~/assets/images/roofing-metal.webp';
 
 export const metadata: Metadata = {
     title: 'Services | Quality Roofing Services',
+    description: 'Need professional roof repair in Spokane, WA? We quickly fix leaks, damage, and more to keep your home safe. Contact us for a free inspection!',
     alternates: {
         canonical: `${SITE.origin}services/roof-repair`,
     },

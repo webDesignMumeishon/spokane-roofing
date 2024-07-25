@@ -32,6 +32,7 @@ import metalRoofing from '~/assets/images/roofing-metal.webp';
 
 export const metadata: Metadata = {
     title: 'Services | Quality Roofing Services',
+    description: 'Looking for reliable roof replacement services in Spokane, WA? We provide top-quality roofing solutions to protect your home. Get a free estimate today!',
     alternates: {
         canonical: `${SITE.origin}services`,
     },

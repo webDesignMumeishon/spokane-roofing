@@ -7,7 +7,8 @@ import Hero from '~/components/widgets/Hero';
 import { SITE } from '~/config';
 
 export const metadata: Metadata = {
-    title: 'FAQs',
+    title: 'FAQs | We Are Here to Help',
+    description: 'Frequently Asked Questions | Contact Us for Further Assistance | Quick Answers to Your Questions',
     alternates: {
         canonical: `${SITE.origin}faqs`,
     },

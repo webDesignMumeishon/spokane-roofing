@@ -12,6 +12,7 @@ import metalRoofing from '~/assets/images/roofing-metal.webp';
 
 export const metadata: Metadata = {
     title: 'Services | Quality Roofing Services',
+    description: 'Searching for durable metal roofing in Spokane, WA? Our experts install high-quality metal roofs that last. Call for a free quote!',
     alternates: {
         canonical: `${SITE.origin}services/metal-roofing`,
     },

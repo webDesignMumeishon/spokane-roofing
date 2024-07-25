@@ -6,7 +6,8 @@ import { callToActionServices, heroServices, servicesListServices } from '~/shar
 import ServicesList from '~/components/widgets/ServicesList';
 
 export const metadata: Metadata = {
-  title: 'Services | Quality Roofing Services',
+  title: 'Services We Provide in Spokane, WA',
+  description:'Services | We Offer a Variety of Services | Find What You Are Looking For',
   alternates: {
     canonical: `${SITE.origin}services/roof-replacement`,
   },

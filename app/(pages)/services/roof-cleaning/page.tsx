@@ -29,6 +29,7 @@ import { ContentProps } from '~/shared/types';
 
 export const metadata: Metadata = {
     title: 'Services | Quality Roofing Services',
+    description: 'Looking for professional roof cleaning in Spokane, WA? We ensures long-lasting roof with safe and effective cleaning methods. Schedule your service today!',
     alternates: {
         canonical: `${SITE.origin}services/roof-cleaning`,
     },
