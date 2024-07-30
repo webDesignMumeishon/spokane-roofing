@@ -36,11 +36,11 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          "title": "How do I start the process of getting a new roof with Spokane Roofing?",
+          "title": "How do I start the process of getting a new roof with Spokane Roofing Solutions?",
           "description": "To start the process, simply contact us through our website or give us a call. Our team will schedule an initial consultation to understand your needs and preferences."
         },
         {
-          "title": "What services does Spokane Roofing offer?",
+          "title": "What services does Spokane Roofing Solutions offer?",
           "description": "We offer a range of services including roof installations, repairs, inspections, and maintenance for both residential and commercial properties."
         },
         {

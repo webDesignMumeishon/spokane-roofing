@@ -1,7 +1,7 @@
 # Privacy Policy
 
 ## Introduction
-Welcome to Spokane Roofing. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our website or use our services.
+Welcome to Spokane Roofing Solutions. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our website or use our services.
 
 ## Information We Collect
 We may collect the following types of information:
@@ -20,7 +20,7 @@ We use your information to:
 ## Sharing Your Information
 We do not sell or rent your personal information to third parties. We may share your information with:
 - **Service Providers:** Third-party vendors who assist us in operating our website and providing our services.
-- **Legal Obligations:** When required by law or to protect the rights, property, or safety of Spokane Roofing and our users.
+- **Legal Obligations:** When required by law or to protect the rights, property, or safety of Spokane Roofing Solutions and our users.
 
 ## Data Security
 We implement appropriate security measures to protect your information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure.
@@ -43,7 +43,7 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 ## Contact Us
 If you have any questions or concerns about these Terms and Conditions, please contact us at:
 
-Spokane Roofing  
+Spokane Roofing Solutions  
 Phone: (509) 294-3442
 Email: spokaneroofingco@gmail.com
 Address: 601 W 1st Ave Suite 1200

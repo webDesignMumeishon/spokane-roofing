@@ -21,7 +21,7 @@ export const websiteData = {
 export const jsonLd = {
   "@context": "http://schema.org",
   "@type": "LocalBusiness",
-  "name": "Spokane Roofing Company",
+  "name": "Spokane Roofing Solutions Company",
   "image": "https://spokaneroofing.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspokane-roofing.e69bb475.png&w=640&q=75",
   "telephone": "(509) 294-3442",
   "email": "spokaneroofingco@gmail.com",
@@ -178,7 +178,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'Spokane Roofing',
+  title: 'Spokane Roofing Solutions',
   links: [
     {
       label: 'Terms & Conditions',

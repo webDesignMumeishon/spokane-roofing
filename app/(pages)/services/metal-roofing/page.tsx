@@ -27,7 +27,7 @@ const hero = {
     },
     image: {
         src: heroImg,
-        alt: 'Spokane roofing hero image',
+        alt: 'Spokane Roofing Solutions hero image',
     },
 }
 
@@ -53,7 +53,7 @@ const hero2 = {
     },
     image: {
         src: metalRoofing,
-        alt: 'Spokane roofing hero image',
+        alt: 'Spokane Roofing Solutions hero image',
     },
 }
 

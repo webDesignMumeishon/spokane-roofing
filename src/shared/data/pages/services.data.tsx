@@ -33,7 +33,7 @@ import roofCleaning from '~/assets/images/roof-cleaning.webp';
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {
-  title: 'Spokane Roofing Services',
+  title: 'Spokane Roofing Solutions Services',
   subtitle: 'Helping You Find Your Dream Home with Ease and Confidence',
   callToAction: {
     text: 'GET A FREE ESTIMATE',
@@ -52,10 +52,10 @@ export const servicesListServices: any = {
     {
       image: {
         src: roofReplacement,
-        alt: 'Spokane roofing roof replacement service'
+        alt: 'Spokane Roofing Solutions roof replacement service'
       },
       title: 'Roof Replacement',
-      description: 'At Spokane Roofing, our skilled roofers are experts in replacing roofs for both residential and commercial buildings. We use top-quality roofing materials to ensure long-lasting results and customer satisfaction.',
+      description: 'At Spokane Roofing Solutions, our skilled roofers are experts in replacing roofs for both residential and commercial buildings. We use top-quality roofing materials to ensure long-lasting results and customer satisfaction.',
       callToAction: {
         text: 'READ MORE',
         href: '/services/roof-replacement'
@@ -64,7 +64,7 @@ export const servicesListServices: any = {
     {
       image: {
         src: roofRepair,
-        alt: 'Spokane roofing roof repair service'
+        alt: 'Spokane Roofing Solutions roof repair service'
       },
       title: 'Roof Repair',
       description: 'Our professional roofers are skilled in addressing all types of roof damage. From minor leaks to extensive damage, we provide comprehensive roof repair services to maintain the integrity of your property.',
@@ -88,7 +88,7 @@ export const servicesListServices: any = {
     {
       image: {
         src: roofCleaning,
-        alt: 'Spokane roofing cleaning service'
+        alt: 'Spokane Roofing Solutions cleaning service'
       },
       title: 'Roof Cleaning',
       description: 'Our pressure washing services can make your roof look new. Contact us today to schedule our high-pressure cleaning services for your residential or commercial roof.',

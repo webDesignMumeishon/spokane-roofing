@@ -26,7 +26,7 @@ const Experience = ({
                         subtitleClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
                     />
                 )}
-                <p className='text-lg'>At Spokane Roofing, we pride ourselves on providing outstanding roofing services in Spokane that exceed our client&apos;s expectations. Our team of highly skilled and experienced roofers is dedicated to delivering quality workmanship and exceptional customer service.</p>
+                <p className='text-lg'>At Spokane Roofing Solutions, we pride ourselves on providing outstanding roofing services in Spokane that exceed our client&apos;s expectations. Our team of highly skilled and experienced roofers is dedicated to delivering quality workmanship and exceptional customer service.</p>
                 <div className='flex mt-10 gap-4 flex-col md:flex-row'>
                     <div>
                         <p className='font-bold text-xl'>Experience</p>
@@ -46,7 +46,7 @@ const Experience = ({
                             src={image.src}
                             width={400}
                             height={768}
-                            alt={'Spokane Roofing delivering work to their clients'}
+                            alt={'Spokane Roofing Solutions delivering work to their clients'}
                             placeholder="blur"
                             className="inset-0 object-cover object-top w-full rounded-md shadow-lg md:h-full bg-gray-400 dark:bg-slate-700"
                             quality={50}

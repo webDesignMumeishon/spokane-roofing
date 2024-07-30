@@ -5,7 +5,7 @@ addons.setConfig({
   theme: create({
     base: 'light',
     // Logo
-    brandTitle: 'Spokane Roofing',
+    brandTitle: 'Spokane Roofing Solutions',
     brandUrl: 'https://spokaneroofing.co/',
     brandTarget: '_blank',
   }),

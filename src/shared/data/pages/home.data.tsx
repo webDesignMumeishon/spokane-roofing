@@ -43,7 +43,7 @@ import gasImg from '~/assets/images/roofing-tool.webp';
 export const heroHome: HeroProps = {
   title: (
     <>
-      <span className="underline decoration-6 decoration-red-800">Spokane Roofing Company</span>
+      <span className="underline decoration-6 decoration-red-800">Spokane Roofing Solutions Company</span>
     </>
   ),
   subtitle: (
@@ -147,7 +147,7 @@ export const contentHomeOne: ContentProps = {
   header: {
     title: (
       <>
-        All Service <span className="text-rose-700">Spokane Roofing</span>
+        All Service <span className="text-rose-700">Spokane Roofing Solutions</span>
       </>
     ),
     subtitle: 'We want to make sure your home or business is protected !',
@@ -157,15 +157,15 @@ export const contentHomeOne: ContentProps = {
   items: [
     {
       title: 'Residential Roofing',
-      description: 'Your roof protects your home, loved ones, and your belongings, so trust your roofing needs to the Spokane Roofing experts with the experience to get the job done right.',
+      description: 'Your roof protects your home, loved ones, and your belongings, so trust your roofing needs to the Spokane Roofing Solutions experts with the experience to get the job done right.',
     },
     {
       title: 'Commercial Roofing',
-      description: 'Warehouses, strip malls, hospitals, office buildings, schools, and everything in-between (including government projects) – Spokane Roofing can provide your business with expert commercial roofing services.',
+      description: 'Warehouses, strip malls, hospitals, office buildings, schools, and everything in-between (including government projects) – Spokane Roofing Solutions can provide your business with expert commercial roofing services.',
     },
     {
       title: 'Industrial Roofing',
-      description: 'When it comes to industrial roofing, Spokane Roofing is up to the challenge. We specialize in flat / low-slope roofing and no project is too large or small – including preventative maintenance and roof leak repair.',
+      description: 'When it comes to industrial roofing, Spokane Roofing Solutions is up to the challenge. We specialize in flat / low-slope roofing and no project is too large or small – including preventative maintenance and roof leak repair.',
     },
   ],
   image: {
@@ -580,7 +580,7 @@ export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
-    subtitle: 'Your Spokane Roofing Experts Are Here to Help',
+    subtitle: 'Your Spokane Roofing Solutions Experts Are Here to Help',
     tagline: '',
   },
   content: 'Contact us today for expert guidance and exceptional service. Use the form below or call us directly — we are here to help!',
