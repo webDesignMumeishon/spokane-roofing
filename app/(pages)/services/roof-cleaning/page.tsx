@@ -80,17 +80,22 @@ const contentServicesOne: ContentProps = {
     content: 'Why You Should Get Your Roof Cleaned?',
     items: [
         {
-            title: 'Prevalence of Roof Replacement',
-            description: 'Up to 50% of homeowners in the United States end up replacing their roof at some point. This can be very costly, ranging from $8,000 to $35,000.',
-        },
-        {
-            title: 'Cost-Effective Alternative: Roof Cleaning',
+            title: 'Cost-Effective Alternative',
             description: 'Cleaning your roof is significantly cheaper than replacing it because it helps prevent cosmetic or structural damages that could lead to the need for replacement',
         },
         {
-            title: 'When to Consider Roof Replacement',
-            description: 'If the roof is very old or has substantial structural damage, then, in these cases replacing the roof might be the best option',
+            title: 'Improve Aesthetics',
+            description: 'A clean roof enhances the overall appearance of a home, improving its curb appeal and potentially increasing property value.',
         },
+        {
+            title: 'Health Benefits',
+            description: 'Mold and mildew on the roof can enter the home, affecting indoor air quality and potentially causing health issues for residents.',
+        },
+        {
+            title: 'Insurance Compliance',
+            description: 'Some insurance policies require regular roof maintenance. Neglecting to clean the roof might result in denied claims for roof damage.',
+        },
+
     ],
     isReversed: true,
     isAfterContent: false,

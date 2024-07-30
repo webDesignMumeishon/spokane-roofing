@@ -78,11 +78,30 @@ const hero2 = {
     },
 }
 
+const contentServicesOne: ContentProps = {
+    id: 'contentOne-on-services-one',
+    hasBackground: false,
+    content: 'Things to know',
+    items: [
+        {
+            title: 'Prevalence of Roof Replacement',
+            description: 'Up to 50% of homeowners in the United States end up replacing their roof at some point. This can be very costly, ranging from $8,000 to $35,000.',
+        },
+        {
+            title: 'When to Consider Roof Replacement',
+            description: 'If the roof is very old or has substantial structural damage, then, in these cases replacing the roof might be the best option',
+        },
+    ],
+    isReversed: true,
+    isAfterContent: false,
+};
+
 const Page = () => {
     return (
         <>
             <HeroServices {...hero} />
             <Hero2 {...hero2} />
+            <Content {...contentServicesOne} />
             <Features4 {...servicesData} />
             <CallToAction {...callToActionServices} />
         </>
