@@ -17,7 +17,7 @@ import damageRoof from '~/assets/images/damage-roof.webp';
 import ContentImg2 from '~/components/widgets/ContentImg2';
 
 export const metadata: Metadata = {
-    title: 'Services | Quality Roofing Services',
+    title: 'Services | Roof Repair | Quality Roofing Services',
     description: 'Need professional roof repair in Spokane, WA? We quickly fix leaks, damage, and more to keep your home safe. Contact us for a free inspection!',
     alternates: {
         canonical: `${SITE.origin}services/roof-repair`,

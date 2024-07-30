@@ -16,7 +16,7 @@ import { faqs2Home } from '~/shared/data/pages/home.data';
 import FAQs3 from '~/components/widgets/FAQs3';
 
 export const metadata: Metadata = {
-    title: 'Services | Quality Roofing Services',
+    title: 'Services | Metal Roofing | Quality Roofing Services',
     description: 'Learn why metal roofing is the best choice for your home. Discover the advantages, durability, and cost savings of metal roofs today!',
     alternates: {
         canonical: `${SITE.origin}services/metal-roofing`,
