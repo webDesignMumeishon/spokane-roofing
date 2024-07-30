@@ -6,7 +6,7 @@ import Headline from '../common/Headline';
 import WidgetWrapper from '../common/WidgetWrapper';
 import ItemGrid from '../common/ItemGrid';
 
-const Content2 = ({
+const ContentImg2 = ({
     header,
     content,
     items,
@@ -25,12 +25,12 @@ const Content2 = ({
         <div className="mx-auto max-w-7xl">
             <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
                 <div className="self-center md:basis-1/2">
-                    {content && <div className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</div>}
+                    {content && <h2 className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</h2>}
                     <ItemGrid
                         items={items}
                         columns={1}
                         defaultIcon={IconCheck}
-                        containerClass="gap-4 md:gap-y-6"
+                        containerClass="gap-4 md:gap-y-2"
                         panelClass="flex max-w-full"
                         titleClass="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2"
                         descriptionClass="mt-1 text-gray-600 dark:text-slate-400"
@@ -48,7 +48,7 @@ const Content2 = ({
                                 alt={image.alt}
                                 sizes="(max-width: 768px) 100vw, 432px"
                                 placeholder="blur"
-                                quality={50}
+                                quality={100}
                             />
                         </div>
                     )}
@@ -58,4 +58,4 @@ const Content2 = ({
     </WidgetWrapper>
 );
 
-export default Content2;
+export default ContentImg2;

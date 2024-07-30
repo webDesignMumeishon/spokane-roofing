@@ -43,7 +43,7 @@ const ItemGrid = ({
                   ) : null}
                 </div>
                 <div className="mt-0.5">
-                  {title && <h3 className={twMerge('text-xl font-bold', titleClass)}>{title}</h3>}
+                  {title && <p className={twMerge('text-xl font-bold', titleClass)}>{title}</p>}
                   {description && (
                     <p
                       className={twMerge(`text-gray-600 dark:text-slate-400 ${title ? 'mt-3' : ''}`, descriptionClass)}

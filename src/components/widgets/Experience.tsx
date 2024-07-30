@@ -26,7 +26,7 @@ const Experience = ({
                         subtitleClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
                     />
                 )}
-                <p className='text-lg'>From roof repairs to  new metal roof installation. We ensure efficiency and adhere strictly to our project start and finish dates. We are the best Spokane roofing contractor.</p>
+                <p className='text-lg'>At Spokane Roofing, we pride ourselves on providing outstanding roofing services in Spokane that exceed our client&apos;s expectations. Our team of highly skilled and experienced roofers is dedicated to delivering quality workmanship and exceptional customer service.</p>
                 <div className='flex mt-10 gap-4 flex-col md:flex-row'>
                     <div>
                         <p className='font-bold text-xl'>Experience</p>

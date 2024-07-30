@@ -33,7 +33,6 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/hero-and-logo.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 import realStateAgentAndFamily from '~/assets/images/real-state-spokane-people.png';
@@ -77,11 +76,6 @@ export const socialProofHome: SocialProofProps = {
       link: 'https://nextjs.org/',
       src: nextJsLogo,
       alt: 'NextJs Logo',
-    },
-    {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
     },
     {
       link: 'https://tailwindcss.com/',

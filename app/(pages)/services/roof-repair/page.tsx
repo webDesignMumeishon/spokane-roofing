@@ -9,6 +9,12 @@ import { servicesData } from '~/shared/data/global.data';
 import heroImg from '~/assets/images/spokane-hero-services.png';
 import Hero2 from '~/components/widgets/Hero2';
 import roofRepair from '~/assets/images/roof-repair.webp';
+import Content from '~/components/widgets/Content';
+import { ContentProps } from '~/shared/types';
+import Features2 from '~/components/widgets/Features2';
+import ContentImg from '~/components/widgets/ContentImg';
+import damageRoof from '~/assets/images/damage-roof.webp';
+import ContentImg2 from '~/components/widgets/ContentImg2';
 
 export const metadata: Metadata = {
     title: 'Services | Quality Roofing Services',
@@ -57,11 +63,56 @@ const hero2 = {
     },
 }
 
+const contentServicesOne: ContentProps = {
+    id: 'contentOne-on-services-one',
+    hasBackground: false,
+    content: 'Common Roof Damage Reasons',
+    items: [
+        {
+            title: 'Prolonged rainfall can cause leaks.',
+        },
+        {
+            title: 'Hailstones can dent and crack roofing materials.',
+        },
+        {
+            title: 'High winds can lift and remove shingles or tiles.',
+        },
+        {
+            title: 'Accumulated snow adds weight, and ice dams cause water backup.',
+        },
+        {
+            title: 'Roofing materials degrade over time.',
+        },
+        {
+            title: 'Incorrect installation leads to various issues.',
+        },
+        {
+            title: 'Birds and squirrels can cause significant roof damage.',
+        },
+        {
+            title: 'Growth traps moisture, deteriorating materials.',
+        },
+        {
+            title: 'Heavy foot traffic can damage the roof surface.',
+        },
+        {
+            title: 'Poor-quality materials fail prematurely.',
+        },
+    ],
+    image: {
+        src: damageRoof,
+        alt: 'Colorful Image',
+    },
+    isReversed: true,
+    isAfterContent: false,
+};
+
 const Page = () => {
     return (
         <>
             <HeroServices {...hero} />
             <Hero2 {...hero2} />
+            <ContentImg2 {...contentServicesOne} />
             <Features4 {...servicesData} />
             <CallToAction {...callToActionServices} />
         </>

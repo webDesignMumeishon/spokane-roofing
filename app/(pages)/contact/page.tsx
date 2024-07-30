@@ -17,7 +17,9 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-      {/* <Hero {...heroContact} /> */}
+      <h1 className=" text-center leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
+        Get in touch !
+      </h1>
       <Contact2 {...contact2Contact} />
       {/* <Features2 {...features2Contact} /> */}
     </>
