@@ -7,13 +7,16 @@ import { SITE } from '~/config';
 import { callToActionServices, } from '~/shared/data/pages/services.data';
 import { servicesData } from '~/shared/data/global.data';
 import heroImg from '~/assets/images/spokane-hero-services.png';
+import metalRoofer from '~/assets/images/metal-roofer.webp';
 import Hero2 from '~/components/widgets/Hero2';
-import metalRoofing from '~/assets/images/roofing-metal.webp';
+import metalRoofing from '~/assets/images/metal-roofing.webp';
 import { ContentProps, FAQsProps } from '~/shared/types';
 import Content from '~/components/widgets/Content';
 import FAQs2 from '~/components/widgets/FAQs2';
 import { faqs2Home } from '~/shared/data/pages/home.data';
 import FAQs3 from '~/components/widgets/FAQs3';
+import Content2 from '~/components/widgets/Content2';
+import ContentImg from '~/components/widgets/ContentImg';
 
 export const metadata: Metadata = {
     title: 'Services | Metal Roofing | Quality Roofing Services',
@@ -63,13 +66,17 @@ const hero2 = {
 }
 
 const contentServicesOne: ContentProps = {
-    id: 'contentOne-on-services-one',
+    id: 'metal-roofing-services',
+    header: {
+        title: 'Why Choose Metal Roofing?',
+        subtitle: 'Metal roofing is a long-lasting, energy-efficient, and stylish alternative to traditional roofing materials. Made from high-quality metals like steel, aluminum, and copper, it offers unmatched durability and a sleek appearance.'
+    },
     hasBackground: false,
-    content: 'Benefits',
+    content: 'The Benefits of Metal Roofing',
     items: [
         {
             title: 'Durability',
-            description: 'Metal roofs can last 50 years or more, resisting extreme weather conditions.',
+            description: 'Metal roofs are resistant to extreme weather conditions, including heavy rain, snow, and high winds. They are also less prone to cracking, shrinking, or eroding, ensuring a longer lifespan.',
         },
         {
             title: 'Energy Efficiency',
@@ -77,24 +84,77 @@ const contentServicesOne: ContentProps = {
         },
         {
             title: 'Low Maintenance',
-            description: 'Requires minimal upkeep compared to traditional roofs.',
+            description: 'Unlike traditional roofing materials that require frequent repairs and replacements, metal roofing is low maintenance and can last up to 50 years or more with minimal upkeep.',
         },
         {
-            title: 'Aesthetic Appeal',
-            description: 'Available in various styles and colors to match any home design.',
-        },
-        {
-            title: 'Eco-Friendly',
-            description: 'Often made from recycled materials and fully recyclable at the end of their lifespan.',
+            title: 'Environmental Impact',
+            description: 'Metal roofs are often made from recycled materials and are fully recyclable at the end of their life, making them an eco-friendly choice.',
         },
 
     ],
     isReversed: true,
     isAfterContent: false,
+};
+
+const contentServicesTwo: ContentProps = {
+    id: 'metal-roofing-services-2',
     header: {
-        title: 'What is metal Roofing ?',
-        subtitle: 'Metal roofing is a long-lasting, energy-efficient, and stylish alternative to traditional roofing materials. Made from high-quality metals like steel, aluminum, and copper, it offers unmatched durability and a sleek appearance.'
-    }
+        title: 'Say Goodbye to Common Roofing Issues',
+        subtitle: 'Homeowners often face several issues with traditional roofing materials that can be resolved with metal roofing'
+    },
+    hasBackground: false,
+    content: 'Common Pain Points Solved by Metal Roofing',
+    items: [
+        {
+            title: 'Frequent Repairs',
+            description: 'Traditional shingles can crack, warp, and break over time, leading to costly repairs. Metal roofing is highly durable and resistant to damage.',
+        },
+        {
+            title: 'High Energy Bills',
+            description: 'Poor insulation from traditional roofs can lead to higher energy costs. Metal roofing provides better insulation and energy efficiency.',
+        },
+        {
+            title: 'Short Lifespan',
+            description: ' Asphalt shingles and other materials typically last 20-30 years. Metal roofing can last over 50 years, reducing the frequency and cost of replacements.',
+        },
+        {
+            title: 'Mold and Mildew',
+            description: 'Traditional roofs can retain moisture, leading to mold and mildew growth. Metal roofing sheds water effectively, preventing these issues.',
+        },
+
+    ],
+    isReversed: true,
+    isAfterContent: false,
+};
+
+const contentServicesThree: ContentProps = {
+    id: 'metal-roofing-services-3',
+    header: {
+        title: 'Comprehensive Metal Roofing Solutions',
+        subtitle: 'We offer a full range of metal roofing services to meet your needs'
+    },
+    image: {
+        src: metalRoofer,
+        alt: 'Metal roofer Standing on a metal roof'
+    },
+    hasBackground: false,
+    content: 'Our Metal Roofing Services',
+    items: [
+        {
+            title: 'Custom Metal Roof Installation',
+            description: 'Our team of experts will work with you to design and install a metal roof that fits your home’s architecture and your personal style preferences.',
+        },
+        {
+            title: 'Metal Roof Repair and Maintenance',
+            description: ' Keep your metal roof in top condition with our repair and maintenance services. From minor fixes to major repairs, we’ve got you covered.',
+        },
+        {
+            title: 'Roof Inspection and Consultation',
+            description: 'Not sure if metal roofing is right for you? Our professionals will conduct a thorough inspection and provide a detailed consultation to help you make an informed decision.',
+        },
+    ],
+    isReversed: true,
+    isAfterContent: false,
 };
 
 const faqs2MetalRoofing: FAQsProps = {
@@ -139,6 +199,8 @@ const Page = () => {
             <HeroServices {...hero} />
             <Hero2 {...hero2} />
             <Content {...contentServicesOne} />
+            <Content2 {...contentServicesTwo} />
+            <ContentImg {...contentServicesThree} />
             <Features4 {...servicesData} />
             <FAQs3 {...faqs2MetalRoofing} />
             <CallToAction {...callToActionServices} />
