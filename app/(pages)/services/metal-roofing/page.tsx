@@ -42,7 +42,7 @@ const hero = {
 const hero2 = {
     title: (
         <>
-            Transform Your Home with<span className="text-red-800">Metal Roofing</span>: Durable, Stylish, and Cost-Effective.
+            Transform Your Home with <span className="text-red-800">Metal Roofing</span>: Durable, Stylish, and Cost-Effective.
         </>
     ),
     subtitle: (
