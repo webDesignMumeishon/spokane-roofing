@@ -12,9 +12,9 @@ import roofRepair from '~/assets/images/roof-repair.webp';
 import Content from '~/components/widgets/Content';
 import { ContentProps } from '~/shared/types';
 import Features2 from '~/components/widgets/Features2';
-import ContentImg from '~/components/widgets/ContentImg';
+import ContentImg from '~/components/widgets/content-images/ContentImg';
 import damageRoof from '~/assets/images/damage-roof.webp';
-import ContentImg2 from '~/components/widgets/ContentImg2';
+import ContentImg2 from '~/components/widgets/content-images/ContentImg2';
 
 export const metadata: Metadata = {
     title: 'Services | Roof Repair | Quality Roofing Services',

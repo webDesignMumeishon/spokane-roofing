@@ -19,7 +19,7 @@ const ServicesList = ({
                     <Image
                         src={service.image.src}
                         alt={'logo'}
-                        width={500}
+                        width={450}
                         height={300}
                         loading="eager"
                         priority

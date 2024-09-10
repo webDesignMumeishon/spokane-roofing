@@ -7,9 +7,6 @@ import {
   IconListCheck,
   IconRocket,
   IconHomeSearch,
-  IconWallet,
-  IconMapSearch,
-  IconBuildingEstate,
   IconArrowBadgeRight,
   IconHome2
 } from '@tabler/icons-react';
@@ -24,11 +21,11 @@ import {
 } from '~/shared/types';
 
 import heroImg from '~/assets/images/spokane-hero-services.png';
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import roofReplacement from '~/assets/images/roof-replacement.webp';
 import roofRepair from '~/assets/images/roof-repair.webp';
 import metalRoofing from '~/assets/images/roofing-metal.webp';
 import roofCleaning from '~/assets/images/roof-cleaning.webp';
+import roofMossRemoval from '~/assets/images/roof-moss-removal.webp';
 
 
 // Hero data on Services page *******************
@@ -96,6 +93,21 @@ export const servicesListServices: any = {
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/roof-cleaning',
+        icon: IconArrowBadgeRight
+      }
+    },
+
+    {
+      image: {
+        src: roofMossRemoval,
+        alt: 'Spokane Roof Moss Removal'
+      },
+      title: 'Roof Moss Removal',
+      description: 'Let\'s dive deeper into the importance of roof moss removal and the comprehensive services we offer',
+      icon: IconHome2,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'services/moss-removal',
         icon: IconArrowBadgeRight
       }
     },

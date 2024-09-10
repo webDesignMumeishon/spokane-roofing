@@ -16,7 +16,7 @@ import FAQs2 from '~/components/widgets/FAQs2';
 import { faqs2Home } from '~/shared/data/pages/home.data';
 import FAQs3 from '~/components/widgets/FAQs3';
 import Content2 from '~/components/widgets/Content2';
-import ContentImg from '~/components/widgets/ContentImg';
+import ContentImg from '~/components/widgets/content-images/ContentImg';
 
 export const metadata: Metadata = {
     title: 'Services | Metal Roofing | Quality Roofing Services',

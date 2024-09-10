@@ -2,9 +2,9 @@ import Image from 'next/image';
 import { IconCheck } from '@tabler/icons-react';
 
 import { ContentProps } from '~/shared/types';
-import Headline from '../common/Headline';
-import WidgetWrapper from '../common/WidgetWrapper';
-import ItemGrid from '../common/ItemGrid';
+import Headline from '../../common/Headline';
+import WidgetWrapper from '../../common/WidgetWrapper';
+import ItemGrid from '../../common/ItemGrid';
 
 const ContentImg2 = ({
     header,
