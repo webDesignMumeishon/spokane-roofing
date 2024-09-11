@@ -1,14 +1,14 @@
 import { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
+import { Inter as CustomFont } from 'next/font/google';
 
 import { SITE } from '~/config.js';
-
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
-import Announcement from '~/components/widgets/Announcement';
 import Footer2 from '~/components/widgets/Footer2';
-
-import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
+
+
 
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
@@ -43,6 +43,7 @@ export default function RootLayout({ children }: LayoutProps) {
           {/* <Announcement /> */}
           <Header />
           <main>{children}</main>
+          <Analytics />
           <Footer2 />
         </Providers>
       </body>

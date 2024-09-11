@@ -1,15 +1,4 @@
-import {
-  IconArrowBadgeRight,
-  IconBrandFacebook,
-  IconBrandGithub,
-  IconBrandInstagram,
-  IconBrandTwitter,
-  IconBulb,
-  IconChevronDown,
-  IconHome2,
-  IconHomeSearch,
-  IconRss,
-} from '@tabler/icons-react';
+import { IconArrowBadgeRight, IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandTwitter, IconChevronDown, IconHammer, IconPlant, IconPlayerEject, IconRss, IconSpray, IconTools } from '@tabler/icons-react';
 import { AnnouncementProps, FeaturesProps, FooterProps, HeaderProps } from '../types';
 
 export const websiteData = {
@@ -75,7 +64,7 @@ export const servicesData: FeaturesProps = {
     {
       title: 'Roof Repair',
       description: 'We can repair any type of roofing issue, including leaks, missing shingles, and damaged flashing.',
-      icon: IconHomeSearch,
+      icon: IconTools,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'roof-repair',
@@ -85,7 +74,7 @@ export const servicesData: FeaturesProps = {
     {
       title: 'Roof Replacement',
       description: 'Replacing the entire roof or specific sections to ensure structural integrity and longevity.',
-      icon: IconBulb,
+      icon: IconHammer,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'roof-replacement',
@@ -95,7 +84,7 @@ export const servicesData: FeaturesProps = {
     {
       title: 'Metal Roofing',
       description: 'Transform your home with our top-tier metal roofing solutions. Engineered for durability, energy efficiency, and aesthetic appeal.',
-      icon: IconHome2,
+      icon: IconPlayerEject,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'metal-roofing',
@@ -105,23 +94,23 @@ export const servicesData: FeaturesProps = {
     {
       title: 'Roof Cleaning',
       description: 'Our pressure washing services can make your roof look new. Contact us today to schedule our high-pressure cleaning services for your residential or commercial roof.',
-      icon: IconHome2,
+      icon: IconSpray,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'roof-cleaning',
         icon: IconArrowBadgeRight
       }
     },
-    // {
-    //   title: 'Commercial Roofing',
-    //   description: 'As an experienced commercial roofing company, our team will help evaluate the best commercial roofing system for your needs or even commercial roof repair needs.',
-    //   icon: IconHome2,
-    //   callToAction: {
-    //     text: 'VIEW SERVICE',
-    //     href: '/commercial-roofing',
-    //     icon: IconArrowBadgeRight
-    //   }
-    // },
+    {
+      title: 'Roof Moss Removal',
+      description: 'Let\'s dive deeper into the importance of roof moss removal and the comprehensive services we offer',
+      icon: IconPlant,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'moss-removal',
+        icon: IconArrowBadgeRight
+      }
+    },
   ],
 };
 
