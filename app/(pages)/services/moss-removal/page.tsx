@@ -1,3 +1,6 @@
+import { SITE } from '~/config';
+import { Metadata } from 'next';
+
 import HeroServices from '~/components/common/HeroServices';
 import CallToAction from '~/components/widgets/CallToAction';
 import Features4 from '~/components/widgets/Features4';
@@ -16,6 +19,14 @@ import {
     mossRemovalContentServicesThree,
     mossRemovalFaqsMetalRoofing,
 } from "~/shared/data/pages/services/moss-removal"
+
+export const metadata: Metadata = {
+    title: 'Roof Moss Removal | Quality Roofing Services',
+    description: ' Maintain the integrity and aesthetics of your home with Moss Removal',
+    alternates: {
+        canonical: `${SITE.origin}services/moss-removal`,
+    },
+};
 
 
 const Page = () => {

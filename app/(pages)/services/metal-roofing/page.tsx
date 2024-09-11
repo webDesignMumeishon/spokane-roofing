@@ -19,7 +19,7 @@ import Content2 from '~/components/widgets/Content2';
 import ContentImg from '~/components/widgets/content-images/ContentImg';
 
 export const metadata: Metadata = {
-    title: 'Services | Metal Roofing | Quality Roofing Services',
+    title: 'Metal Roofing | Quality Roofing Services',
     description: 'Learn why metal roofing is the best choice for your home. Discover the advantages, durability, and cost savings of metal roofs today!',
     alternates: {
         canonical: `${SITE.origin}services/metal-roofing`,
