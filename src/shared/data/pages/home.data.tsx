@@ -1,36 +1,5 @@
-import {
-  IconArrowBadgeRight,
-  IconArrowDown,
-  IconArrowsRightLeft,
-  IconBrandLinkedin,
-  IconBrandTailwind,
-  IconBrandTwitter,
-  IconBulb,
-  IconCheck,
-  IconClock,
-  IconComponents,
-  IconDownload,
-  IconHomeSearch,
-  IconListCheck,
-  IconMail,
-  IconMapPin,
-  IconPhoneCall,
-  IconRocket,
-  IconHome2
-} from '@tabler/icons-react';
-import {
-  CallToActionProps,
-  ContactProps,
-  ContentProps,
-  FAQsProps,
-  FeaturesProps,
-  HeroProps,
-  PricingProps,
-  SocialProofProps,
-  StepsProps,
-  TeamProps,
-  TestimonialsProps,
-} from '../../types';
+import { IconArrowBadgeRight, IconArrowDown, IconBrandLinkedin, IconBrandTwitter, IconClock, IconDownload, IconMail, IconMapPin, IconPhoneCall, IconPlant, IconSpray, IconPlayerEject, IconHammer, IconTools } from '@tabler/icons-react';
+import { CallToActionProps, ContactProps, ContentProps, FAQsProps, FeaturesProps, HeroProps, PricingProps, SocialProofProps, StepsProps, TeamProps, TestimonialsProps, } from '../../types';
 import heroImg from '~/assets/images/hero-and-logo.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -100,7 +69,7 @@ export const servicesHome: FeaturesProps = {
     {
       title: 'Roof Repair',
       description: 'We can repair any type of roofing issue, including leaks, missing shingles, and damaged flashing.',
-      icon: IconHomeSearch,
+      icon: IconTools,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/roof-repair',
@@ -110,7 +79,7 @@ export const servicesHome: FeaturesProps = {
     {
       title: 'Roof Replacement',
       description: 'Replacing the entire roof or specific sections to ensure structural integrity and longevity.',
-      icon: IconBulb,
+      icon: IconHammer,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/roof-replacement',
@@ -120,7 +89,7 @@ export const servicesHome: FeaturesProps = {
     {
       title: 'Metal Roofing',
       description: 'Transform your home with our top-tier metal roofing solutions. Engineered for durability, energy efficiency, and aesthetic appeal.',
-      icon: IconHome2,
+      icon: IconPlayerEject,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/metal-roofing',
@@ -130,10 +99,20 @@ export const servicesHome: FeaturesProps = {
     {
       title: 'Roof Cleaning',
       description: 'Our pressure washing services can make your roof look new. Contact us today to schedule our high-pressure cleaning services for your residential or commercial roof.',
-      icon: IconHome2,
+      icon: IconSpray,
       callToAction: {
         text: 'VIEW SERVICE',
         href: 'services/roof-cleaning',
+        icon: IconArrowBadgeRight
+      }
+    },
+    {
+      title: 'Roof Moss Removal',
+      description: 'Let\'s dive deeper into the importance of roof moss removal and the comprehensive services we offer',
+      icon: IconPlant,
+      callToAction: {
+        text: 'VIEW SERVICE',
+        href: 'services/moss-removal',
         icon: IconArrowBadgeRight
       }
     },
