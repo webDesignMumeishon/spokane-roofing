@@ -69,26 +69,30 @@ const contentServicesOne: ContentProps = {
     id: 'metal-roofing-services',
     header: {
         title: 'Why Choose Metal Roofing?',
-        subtitle: 'Metal roofing is a long-lasting, energy-efficient, and stylish alternative to traditional roofing materials. Made from high-quality metals like steel, aluminum, and copper, it offers unmatched durability and a sleek appearance.'
+        subtitle: 'Metal roofing has gained immense popularity among Spokane homeowners and businesses for good reason. Here are some of the key benefits'
     },
     hasBackground: false,
     content: 'The Benefits of Metal Roofing',
     items: [
         {
             title: 'Durability',
-            description: 'Metal roofs are resistant to extreme weather conditions, including heavy rain, snow, and high winds. They are also less prone to cracking, shrinking, or eroding, ensuring a longer lifespan.',
+            description: 'Metal roofs are built to last. They can withstand extreme weather conditions, including heavy rain, snowfall, and high winds. This resilience ensures that your investment remains safe and intact for years to come.',
         },
         {
             title: 'Energy Efficiency',
-            description: 'Reflective properties help reduce cooling costs by up to 25%.',
+            description: 'Insulating properties of metal roofing keep your home comfortable throughout the seasons. Metal roofs reflect solar heat, helping to reduce cooling costs in the summer months and maintain warmth during winter.',
         },
         {
             title: 'Low Maintenance',
-            description: 'Unlike traditional roofing materials that require frequent repairs and replacements, metal roofing is low maintenance and can last up to 50 years or more with minimal upkeep.',
+            description: 'Unlike traditional roofing materials, metal roofs require minimal upkeep. This low maintenance aspect saves you time and money over the lifespan of your roof.',
         },
         {
-            title: 'Environmental Impact',
-            description: 'Metal roofs are often made from recycled materials and are fully recyclable at the end of their life, making them an eco-friendly choice.',
+            title: 'Aesthetic Appeal',
+            description: 'Metal roofing offers a modern look that enhances the visual appeal of your property. With various colors and styles available, you can customize your roof to complement your home’s design.',
+        },
+        {
+            title: 'Environmentally Friendly',
+            description: 'Most metal roofing materials are recyclable. Choosing metal roofing contributes to sustainable practices, which is an important consideration for many Spokane residents.',
         },
 
     ],
