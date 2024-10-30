@@ -135,7 +135,7 @@ const contentServicesThree: ContentProps = {
     id: 'metal-roofing-services-3',
     header: {
         title: 'Comprehensive Metal Roofing Solutions',
-        subtitle: 'We offer a full range of metal roofing services to meet your needs'
+        subtitle: 'At Spokane Roofing Solutions Company, we offer a range of metal roofing services tailored to your unique requirements.'
     },
     image: {
         src: metalRoofer,
@@ -145,16 +145,42 @@ const contentServicesThree: ContentProps = {
     content: 'Our Metal Roofing Services',
     items: [
         {
-            title: 'Custom Metal Roof Installation',
-            description: 'Our team of experts will work with you to design and install a metal roof that fits your home’s architecture and your personal style preferences.',
+            title: 'Metal Roofing Installation',
+            description: 'We pride ourselves on our professional installation services. Our qualified team ensures that your metal roof is properly installed, maximizing its lifespan. We assess your property’s specific needs and help you choose the right type of metal roofing.',
         },
         {
-            title: 'Metal Roof Repair and Maintenance',
-            description: ' Keep your metal roof in top condition with our repair and maintenance services. From minor fixes to major repairs, we’ve got you covered.',
+            title: 'Metal Roofing Repair',
+            description: 'If your metal roof has suffered damage, we provide prompt repair services. Our experts can quickly identify and address any issues, reducing the risk of further damage.',
         },
         {
-            title: 'Roof Inspection and Consultation',
-            description: 'Not sure if metal roofing is right for you? Our professionals will conduct a thorough inspection and provide a detailed consultation to help you make an informed decision.',
+            title: 'Metal Roofing Maintenance',
+            description: 'Regular maintenance extends the life of your metal roof. We offer comprehensive maintenance plans to keep your roof in top condition. This includes inspections, cleaning, and timely repairs.',
+        },
+    ],
+    isReversed: true,
+    isAfterContent: false,
+};
+
+const contentServicesFour: ContentProps = {
+    id: 'metal-roofing-services',
+    header: {
+        title: 'Types of Metal Roofing We Offer',
+        subtitle: 'Spokane Roofing Solutions Company provides various types of metal roofing solutions. Here are some of the most popular options:'
+    },
+    hasBackground: false,
+    content: '',
+    items: [
+        {
+            title: 'Standing Seam Metal Roofing',
+            description: 'Standing seam metal roofing is recognized for its sleek design and durability. This type features interlocking panels that create raised seams, which not only enhance appearance but also prevent water leaks. ',
+        },
+        {
+            title: 'Corrugated Metal Roofing',
+            description: 'Corrugated metal roofing is a classic choice that boasts strength and affordability. Its unique wavy design provides excellent durability and requires minimal maintenance.',
+        },
+        {
+            title: 'Metal Shingle Roofing',
+            description: 'Metal shingles combine the advantages of metal roofing with the aesthetic of traditional shingles. They maintain an appealing look while providing exceptional durability and energy efficiency.',
         },
     ],
     isReversed: true,
@@ -205,6 +231,7 @@ const Page = () => {
             <Content {...contentServicesOne} />
             <Content2 {...contentServicesTwo} />
             <ContentImg {...contentServicesThree} />
+            <Content {...contentServicesFour} />
             <Features4 {...servicesData} />
             <FAQs3 {...faqs2MetalRoofing} />
             <CallToAction {...callToActionServices} />
