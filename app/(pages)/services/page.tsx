@@ -6,8 +6,8 @@ import { callToActionServices, heroServices, servicesListServices } from '~/shar
 import ServicesList from '~/components/widgets/ServicesList';
 
 export const metadata: Metadata = {
-  title: 'Spokane Roofing Services | Expert Roof Repair, Installation & Maintenance',
-  description: 'Trusted Spokane roofing services specializing in roof installation, repair, and maintenance. Our expert team ensures durable, weather-resistant roofs for homes and businesses. Contact us for quality roofing solutions tailored to Spokane’s unique climate',
+  title: 'Spokane Roofing Services',
+  description: 'Trusted Spokane roofing services specializing in roof installation, repair, and maintenance. Our expert team ensures durable, weather-resistant roofs for homes and businesses.',
   alternates: {
     canonical: `${SITE.origin}services`,
   },
